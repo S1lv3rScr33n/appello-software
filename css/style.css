@@ -15,9 +15,9 @@ body {
     line-height: 30px;
 
     /* временный фон */
-    background-image: url("../img/bg1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image: url("../img/bg1.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 }
 
 .container {
@@ -30,9 +30,10 @@ body {
 
 .header {
     padding: 55px 0 155px;
-    /*background-image: url("../img/bg1.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+
+    background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__wrapper {
@@ -69,7 +70,7 @@ body {
     color: gray;
 }
 
-/* Btn */
+/* Btn settings */
 
 .btn {
     border: 1px solid #fff;
@@ -96,6 +97,7 @@ body {
 .about-us__block {
     display: inline-block;
     max-width: 430px;
+    padding-top: 155px;
 }
 
 .about-us__title {
